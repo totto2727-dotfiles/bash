@@ -1,0 +1,18 @@
+#!/bin/bash
+
+alias G='git'
+alias GC='git commit'
+alias GCA='git commit --amend'
+alias GSW='git switch'
+alias GSWC='git switch -c'
+
+alias LG='lazygit'
+
+alias VI='nvim'
+alias vi='nvim'
+alias vim='nvim'
+
+alias ll='ls -al'
+
+alias docker='podman'
+
