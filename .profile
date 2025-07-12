@@ -2,4 +2,4 @@
 
 test -z "$PROFILEREAD" && . /etc/profile || true
 
-eval "$(~/.local/bin/mise activate bash)"
+eval "$(~/.local/bin/mise activate --shims)"
