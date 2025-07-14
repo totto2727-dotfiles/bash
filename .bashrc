@@ -14,4 +14,4 @@ eval "$(~/.local/bin/mise activate bash)"
 eval "$(starship init bash)"
 eval "$(zoxide init bash)"
 
-export EDITOR=$(which nvim)
+export EDITOR=nvim
