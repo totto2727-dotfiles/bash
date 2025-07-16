@@ -7,6 +7,8 @@ alias GSW='git switch'
 alias GSWC='git switch -c'
 
 alias LG='lazygit'
+alias LD='lazydocker'
+alias YZ='yazi'
 
 alias VI='nvim'
 alias vi='nvim'
