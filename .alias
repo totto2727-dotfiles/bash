@@ -5,6 +5,8 @@ alias GC='git commit'
 alias GCA='git commit --amend'
 alias GSW='git switch'
 alias GSWC='git switch -c'
+alias GPUSHF='git push --force-with-lease --force-if-includes'
+alias gh-pr-create='gh pr create -a "@me" --base'
 
 alias LG='lazygit'
 alias LD='lazydocker'
