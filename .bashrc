@@ -15,3 +15,9 @@ eval "$(starship init bash)"
 eval "$(zoxide init bash)"
 
 export EDITOR=nvim
+
+export PNPM_HOME="~/.local/share/pnpm"
+case ":$PATH:" in
+*":$PNPM_HOME:"*) ;;
+*) export PATH="$PNPM_HOME:$PATH" ;;
+esac
